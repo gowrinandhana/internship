@@ -1,0 +1,42 @@
+.cart-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  

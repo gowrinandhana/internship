@@ -1,0 +1,64 @@
+/* src/components/Header.css */
+header {
+    background-color: #ff6347; /* Fallback color */
+    background-image: url('Qukb.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    position: relative; /* Ensure positioning context for absolute children */
+  }
+  
+  /* Move the navigation links to the top right corner */
+  nav {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style for search container */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5em;
+  }
+  
+  .search-container button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #ddd;
+  }
